@@ -35,13 +35,13 @@ const char index_html[] PROGMEM = R"rawliteral(
   <h2>Humidity and Temperature in Work Room</h2>
   <h2>(DHT11 Server)</h2>
   <p>
-    <i class="fas fa-thermometer-half" style="color:#059e8a;"></i> 
+    <i class="fa-solid fa-temperature-sun" style="color:#059e8a;"></i> 
     <span class="dht-labels">Temperature</span> 
     <span id="temperature">%TEMPERATURE%</span>
     <sup class="units">&deg;C</sup>
   </p>
   <p>
-    <i class="fas fa-tint" style="color:#00add6;"></i> 
+    <i class="fa-sharp fa-solid fa-water" style="color:#00add6;"></i> 
     <span class="dht-labels">Humidity</span>
     <span id="humidity">%HUMIDITY%</span>
     <sup class="units">%</sup>
