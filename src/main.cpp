@@ -73,6 +73,9 @@ String processor(const String& var)
 //---------------------------------------------------------------------------------------------------------------------
 void connect_wifi()
 {
+    WiFi.mode(WIFI_STA);
+    WiFi.hostname(Authentication::ESP_HOST_NAME);
+
     WiFi.begin(Authentication::WIFI_SSID, Authentication::WIFI_PASSWORD);
     Serial.print("Connecting to ");
     Serial.println(Authentication::WIFI_SSID);
