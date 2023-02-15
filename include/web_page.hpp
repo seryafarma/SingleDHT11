@@ -13,7 +13,7 @@ const char index_html[] PROGMEM = R"rawliteral(
 <!DOCTYPE HTML><html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.3.0/css/all.css">
   <style>
     html {
      font-family: Arial;
@@ -32,16 +32,16 @@ const char index_html[] PROGMEM = R"rawliteral(
   </style>
 </head>
 <body>
-  <h2>Humidity and Temperature in Work Room</h2>
+  <h2>Humidity and Temperature in Guest Room</h2>
   <h2>(DHT11 Server)</h2>
   <p>
-    <i class="fa-solid fa-temperature-sun" style="color:#059e8a;"></i> 
+    <i class="fa-solid fa-thermometer-half" style="color:#fc8803;"></i> 
     <span class="dht-labels">Temperature</span> 
     <span id="temperature">%TEMPERATURE%</span>
     <sup class="units">&deg;C</sup>
   </p>
   <p>
-    <i class="fa-sharp fa-solid fa-water" style="color:#00add6;"></i> 
+    <i class="fa-solid fa-droplet" style="color:#00add6;"></i> 
     <span class="dht-labels">Humidity</span>
     <span id="humidity">%HUMIDITY%</span>
     <sup class="units">%</sup>

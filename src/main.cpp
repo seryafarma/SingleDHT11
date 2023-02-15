@@ -102,6 +102,11 @@ void setup()
 {
     Serial.begin(9600);
     delay(1500);
+
+    DHT.read(DHT11_PIN);
+    update_temperature();
+    update_humidity();
+
     connect_wifi();
 
     // Print ESP8266 Local IP Address
