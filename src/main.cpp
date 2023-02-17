@@ -109,9 +109,6 @@ void setup()
 
     connect_wifi();
 
-    // Print ESP8266 Local IP Address
-    Serial.println(WiFi.localIP());
-
     // Route for root / web page
     server.on("/", HTTP_GET,
               [](AsyncWebServerRequest* request) { request->send_P(200, "text/html", index_html, processor); });
