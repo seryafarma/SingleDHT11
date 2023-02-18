@@ -10,7 +10,7 @@ Simple refactoring of files are also done, splitting the projects to smaller pie
 ## Hardware
 The hardware utilizes a ESP8266 NodeMCU Lolin v3 board. It is connected to Pin 5 which is mapped to 14 in case of ESP8266.
 
-See also: https://create.arduino.cc/projecthub/electropeak/getting-started-w-nodemcu-esp8266-on-arduino-ide-28184f
+See also: https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/
 
 ## Software
 * Another simple two states approach using simple state machine library.
