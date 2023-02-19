@@ -12,6 +12,8 @@ The hardware utilizes a ESP8266 NodeMCU Lolin v3 board. It is connected to Pin 5
 
 See also: https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/
 
+See also the code: `pins_arduino.h`
+
 ## Software
 * Another simple two states approach using simple state machine library.
 * Asynchronous ESP8266 webserver.
